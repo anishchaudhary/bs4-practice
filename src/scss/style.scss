@@ -1,0 +1,43 @@
+//custom variable scss
+@import 'custom.scss';
+//bootstrap scss
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+
+
+//common
+.body--wrapper{background:#fff url(../asset/bg-img.jpg) no-repeat center 0;}
+
+//navbar
+.navbar{
+    width:100%;
+    background:none;
+    .nav-toggler{
+        cursor: pointer;
+        outline: 0;
+    }
+    .nav-item{
+        margin-left:.875rem;
+    }
+    .nav-link{
+        font-size:.875rem;
+        text-transform: uppercase;
+        font-weight: normal;
+        color:$white;
+        transition:color .3s ease;
+        &:hover{color:$yellow !important;}
+    }
+}
+
+//banner
+.banner--content{
+    &-title{color:$white;}
+    &-lead{font-size:2.5rem;color:$white;}
+}
+
+//button
+.btn{
+    text-transform:uppercase;
+    font-size:1.125rem;
+    &-primary{color:$white;}
+}

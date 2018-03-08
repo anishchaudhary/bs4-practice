@@ -1,0 +1,30 @@
+
+//Variables overwrite
+$yellow:  #fed136;
+$white:  #fff;
+
+$primary:       $yellow;
+$link-color:    $yellow;
+$body-bg:   #fff;
+
+//spacer
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge((
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3),
+  6: ($spacer * 9)
+), $spacers);
+
+//heading
+$font-size-base:              1rem !default;
+$h1-font-size:                $font-size-base * 4;
+$h2-font-size:                $font-size-base * 2.5;
+
+//button
+$padding-y:                       1.5rem;
+$padding-x:                       3rem;
